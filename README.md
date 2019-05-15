@@ -2,12 +2,12 @@
 
 
 Install Dependencies
-npm install 
+(npm install) 
 
 Run Server
-npm start
+(npm start)
 
 Run App
-Open index.html
+(Open index.html)
 
 Make sure to open index.html in two different tabs or windows to communicate back and forth
