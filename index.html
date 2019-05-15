@@ -9,6 +9,11 @@
         integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <title>MongoChat</title>
     <style>
+        body {
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEX62t2cnEggAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=');
+            background-repeat: repeat;
+        }
+
         #messages {
             height: 300px;
         }
@@ -42,6 +47,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
 
     <script>
+        //script operations starts from here
         (function () {
             var element = function (id) {
                 return document.getElementById(id);
